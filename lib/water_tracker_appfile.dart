@@ -89,7 +89,7 @@ class _watertrackerState extends State<watertracker> {
                   height: 150,
                   width: 150,
                   child: CircularProgressIndicator(
-                    value: 0.89,
+                    value: progress,
                     backgroundColor: Colors.grey.shade500,
                     color: Colors.blueAccent,
                     strokeWidth: 10,
